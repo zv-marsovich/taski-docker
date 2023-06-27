@@ -145,7 +145,6 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
-        # которые нужно выполнить на сервере, 
         # с которым установлено соединение
         script: |
           cd taski
